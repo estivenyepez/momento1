@@ -1,0 +1,23 @@
+Algoritmo SistemaAlertasCapacidad
+
+    
+    Definir stockActual, stockMinimo, capacidadMaxima Como Entero
+    Definir requiereAuditoria Como Logico
+
+   
+    Escribir "Ingrese el stock actual:"
+    Leer stockActual
+    
+    Escribir "Ingrese el stock minimo de seguridad:"
+    Leer stockMinimo
+    
+    Escribir "Ingrese la capacidad maxima del estante:"
+    Leer capacidadMaxima
+
+
+    requiereAuditoria <- (stockActual <= stockMinimo) O (stockActual > capacidadMaxima)
+
+    
+    Escribir requiereAuditoria
+
+FinAlgoritmo
